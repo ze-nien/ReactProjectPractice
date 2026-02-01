@@ -1,9 +1,15 @@
 import React from "react";
-import Togglebackgroundcolor from "./components/Togglebackgroundcolor";
+// import HiddenSearchBar from "./components/HiddenSearchBar";
+// import Testimonials from "./components/Testimonials";
+// import Togglebackgroundcolor from "./components/Togglebackgroundcolor";
 // import Counter from "./components/Counter";
 // import Todo from "./components/Todo";
 // import Meals from "./components/Meals";
 // import Calculator from "./components/Calculator";
+// import { accordionData } from "./utils/content";
+// import Accordion from "./components/Accordion";
+// import Form from "./components/Form";
+// import Form_useReducer from "./components/Form_useReducer";
 
 const App = () => {
   return (
@@ -12,7 +18,15 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Meals /> */}
       {/* <Calculator /> */}
-      <Togglebackgroundcolor />
+      {/* <Togglebackgroundcolor /> */}
+      {/* <HiddenSearchBar /> */}
+      {/* <Testimonials /> */}
+      {/* <div className="accordion">
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content} />
+        ))}
+      </div> */}
+      {/* <Form_useReducer /> */}
     </div>
   );
 };
